@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js" type="text/javascript"></script>
+
+    <link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+
+    <!-- To enable offline debugging using a local reference to Office.js, use:                        -->
+    <!-- <script src="../../Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
+    <!-- <script src="../../Scripts/Office/1/office.js" type="text/javascript"></script>  -->
+
+    <!-- Fabric core-->
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/1.0/fabric.min.css">
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/1.0/fabric.components.min.css">
+
+    <link href="../App.css" rel="stylesheet" type="text/css" />
+    <script src="../App.js" type="text/javascript"></script>
+
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+    <script src="Home.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="content-header">
+        <div id="padding">
+            <h1>Simple Calculator</h1>
+        </div>
+    </div>
+    <div id="content-main">
+        <div class="box">
+            <div class="display">
+                <input type="text" readonly size="18" id="d">
+            </div>
+            <p></p>
+            <div class="keys">
+                <div id="padding">
+                    <p>
+                        <input type="button" id="buttonMrc" class="button gray" value="mr">
+                        <input type="button" id="buttonClearMemory" class="button gray" value="mc">
+                        <input type="button" id="buttonAddToMemory" class="button gray" value="ms">
+                        <input type="button" id="buttonDivide" class="button pink" value="/">
+                    </p>
+                    <p>
+                        <input type="button" id="buttonSeven" class="button black" value="7">
+                        <input type="button" id="buttonEight" class="button black" value="8">
+                        <input type="button" id="buttonNine" class="button black" value="9">
+                        <input type="button" id="buttonMultiply" class="button pink" value="*">
+                    </p>
+                    <p>
+                        <input type="button" id="buttonFour" class="button black" value="4">
+                        <input type="button" id="buttonFive" class="button black" value="5">
+                        <input type="button" id="buttonSix" class="button black" value="6">
+                        <input type="button" id="buttonSubtract" class="button pink" value="-">
+                    </p>
+                    <p>
+                        <input type="button" id="buttonOne" class="button black" value="1">
+                        <input type="button" id="buttonTwo" class="button black" value="2">
+                        <input type="button" id="buttonThree" class="button black" value="3">
+                        <input type="button" id="buttonAdd" class="button pink" value="+">
+                    </p>
+                    <p>
+                        <input type="button" id="buttonZero" class="button black" value="0">
+                        <input type="button" id="buttonDot" class="button black" value=".">
+                        <input type="button" id="buttonClear" class="button black" value="C">
+                        <input type="button" id="buttonEquals" class="button orange" value="=">
+                    </p>
+                    <p>
+                        <input type="button" id="set-selected-data" class="button long" value="Write to slide" />
+                        <input type="button" id="get-selected-data" class="button long" value="Read from slide" />
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
