@@ -1,4 +1,10 @@
-﻿/// <reference path="../App.js" />
+/*
+*  Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license.
+*  See LICENSE in the source repository root for complete license information.
+*/
+
+
+/// <reference path="../App.js" />
 
 (function () {
     "use strict";
