@@ -25,18 +25,18 @@
 </head>
 <body>
     <div id="content-header">
-        <div id="padding">
+        <div class="padding ms-font-m ms-fontWeight-semibold ms-fontColor-white">
             <h1>Simple Calculator</h1>
         </div>
     </div>
     <div id="content-main">
-        <div class="box">
+        <div class="padding">
             <div class="display">
                 <input type="text" readonly size="18" id="d">
             </div>
             <p></p>
             <div class="keys">
-                <div id="padding">
+                
                     <p>
                         <input type="button" id="buttonMrc" class="button gray" value="mr">
                         <input type="button" id="buttonClearMemory" class="button gray" value="mc">
@@ -68,11 +68,15 @@
                         <input type="button" id="buttonEquals" class="button orange" value="=">
                     </p>
                     <p>
-                        <input type="button" id="set-selected-data" class="button long" value="Write to slide" />
-                        <input type="button" id="get-selected-data" class="button long" value="Read from slide" />
-                    </p>
+                        <button id="set-selected-data" class="ms-Button">
+                            <span class="ms-Button-label">Write</span>
+                        </button>
+                        <button id="get-selected-data" class="ms-Button">
+                            <span class="ms-Button-label">Read</span>
+                        </button>                     
+                    </p>          
                 </div>
-            </div>
+            
         </div>
 
     </div>
