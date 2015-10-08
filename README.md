@@ -48,6 +48,7 @@ The [Settings](https://msdn.microsoft.com/EN-US/library/office/fp142179.aspx) ob
 
 ## Questions and comments
 
+- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/Office-Add-in-Calculator/issues).
 - Questions about Office Add-ins development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/office-addins). Make sure that your questions or comments are tagged with [office-addins].
 
 <a name="additional-resources"></a>
