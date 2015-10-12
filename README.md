@@ -1,6 +1,8 @@
 # Office Add-in: Calculator
 
-An Office task pane add-in that simulates a calculator. You can insert the data from the calculator display into the active selection. You can also get the text from the selection and insert it into the calculator display.
+An Office task pane add-in that simulates a calculator. 
+
+For PowerPoint only: You can insert the data from the calculator display into the active selection. You can also get the text from the selection and insert it into the calculator display.
 
 **Table of contents**
 
